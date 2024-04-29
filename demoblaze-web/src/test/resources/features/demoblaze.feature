@@ -6,11 +6,11 @@
     Antecedentes:
       Dado que luisa ingresa a demoblaze
   @caso1
-  Escenario: ingreso exitoso
+  Escenario: Ingreso exitoso
     Cuando inicia sesion
     Entonces Verifico que inicio correctamente
     @caso2
-    Escenario:compra exitosa
+    Escenario: compra exitosa
       Cuando inicia sesion
       Y escoge un producto y lo agrega al carrito
       Entonces verifica que fue agregado correctamente
