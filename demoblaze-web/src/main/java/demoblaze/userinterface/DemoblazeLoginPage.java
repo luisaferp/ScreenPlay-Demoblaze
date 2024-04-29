@@ -10,4 +10,5 @@ public class DemoblazeLoginPage {
     public static final Target TXT_USUARIO = Target.the("campo usuario").located(By.id("loginusername"));
     public static final Target TXT_CONTRASENA = Target.the("campo contraseña").located(By.id("loginpassword"));
     public static final Target BTN_LOG_IN = Target.the("boton log in").located(By.xpath("//button[contains(text(),'Log in')]"));
+    public static final Target MENSAJE_LOGIN = Target.the("mensaje de bienvenida").located(By.xpath("//a[contains(text(),'Welcome andres')]"));
 }

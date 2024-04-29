@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(features = "src/test/resources/features/demoblaze.feature",
-    tags = "@Regresion",
+    tags = "@caso2",
     glue = "demoblaze.stepdefinitions",
     snippets = CucumberOptions.SnippetType.CAMELCASE)
 public class RunnersTags {
